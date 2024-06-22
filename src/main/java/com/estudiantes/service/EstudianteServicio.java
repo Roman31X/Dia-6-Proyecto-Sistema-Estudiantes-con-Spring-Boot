@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service        // Para que Spring reconozca la dependencia
-public class EstudianteSetvicio implements IEstudianteServicio{
+public class EstudianteServicio implements IEstudianteServicio{
 
     @Autowired  // nos permite inyectar dependencias necesarias
     private EstudianteRepositorio estudianteRepositorio;
