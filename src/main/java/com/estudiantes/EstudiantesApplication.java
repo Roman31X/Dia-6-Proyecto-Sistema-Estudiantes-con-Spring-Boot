@@ -31,6 +31,6 @@ public class EstudiantesApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		logger.info("Se esta ejecutando la aplicación...");
+		logger.info("Se esta ejecutando la aplicación..."+nl);
 	}
 }
